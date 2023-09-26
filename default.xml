@@ -2,9 +2,9 @@
 <manifest>
   <remote fetch="https://github.com/cividati" name="origin"/>
 
-  <default remote="origin" sync-j="4" revision="master"/>
+  <default remote="origin" revision="main"/>
 
-  <project name="repo-test-01" path="repo-test-01"/>
-  <project name="repo-test-02" path="repo-test-02"/>
+  <project name="repo-test-01" path="repo-test-01" revision="main" remote="origin"/>
+  <project name="repo-test-02" path="repo-test-02" revision="main" remote="origin"/>
 
 </manifest>
